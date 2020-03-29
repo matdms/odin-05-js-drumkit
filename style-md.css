@@ -1,0 +1,22 @@
+/* stylesheet perso MD */
+body {
+    font-family: sans-serif;
+    font-size: 2em;
+    margin: 2em auto 0 auto;
+    width: 80%;
+    
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    font-weight: bold;
+    padding: 5em 0 5em 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.5em;
+}

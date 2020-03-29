@@ -1,10 +1,11 @@
 //mon script de drum-kit
 
+
+// jouer un son depuis un clic
 function playSound(item) {
     console.log(item);
-    
+    new Audio('sounds/'+item+'.wav').play();   
 }
-
 
 
 // eventListener pour les clics souris sur les touches 

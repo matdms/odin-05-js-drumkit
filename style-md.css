@@ -12,11 +12,34 @@ header {
 }
 
 main {
-    font-weight: bold;
     padding: 5em 0 5em 0;
 }
 
 footer {
     text-align: center;
     font-size: 0.5em;
+}
+
+.drumkit {
+    display: flex;
+    justify-content: center;
+}
+
+.key {
+    width: 80px;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+}
+
+.key h1 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 2px;
+}
+.key p {
+    font-size: 0.5em;
+    margin: 2px;
 }

@@ -1,5 +1,5 @@
 # JavaScript drum kit
-### This is par of the Odin Project
+### This is part of the Odin Project
 
 Original idea by [Web Bos](https://javascript30.com/).
 

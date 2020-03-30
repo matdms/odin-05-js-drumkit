@@ -1,28 +1,49 @@
 /* stylesheet perso MD */
+html {
+    /*display: flex;
+    flex-direction: column;
+    align-content: stretch;*/
+    height:100%;
+}
+
+
 body {
     font-family: sans-serif;
     font-size: 2em;
-    margin: 2em auto 0 auto;
-    width: 80%;
-    
+    /*margin: 2em auto 0 auto;*/
+    display: flex;
+    /*width: 80%;*/
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 
 header {
-    text-align: center;
+    /*align-self: center;*/
+    flex-grow: 1;
+    
 }
 
 main {
-    padding: 5em 0 5em 0;
+    /*padding: 5em 0 5em 0;*/
+    flex-grow: 1;
+    /*align-self: center;*/
 }
 
 footer {
-    text-align: center;
     font-size: 0.5em;
+    flex-grow: 1;
+    display:flex;
+    align-items: flex-end;
+    /*align-self: center;*/
 }
 
 .drumkit {
     display: flex;
     justify-content: center;
+    
 }
 
 .key {

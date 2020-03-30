@@ -2,8 +2,12 @@
 
 // jouer un son depuis un clic
 function playSound(item) {
-    console.log(item);
+    //console.log(item);
     new Audio('sounds/'+item+'.wav').play();   
+    document.getElementById(item).className = "pressed";
+    setTimeout(function(){document.getElementById(item).className = "key";}, 17);
+    
+
 }
 
 // eventListener pour les clics souris sur les touches 

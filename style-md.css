@@ -13,7 +13,7 @@ body {
     /*margin: 2em auto 0 auto;*/
     display: flex;
     /*width: 80%;*/
-    height: 96%;
+    height: 98%;
     align-content: stretch;
     flex-direction: column;
     justify-content: center;
@@ -56,18 +56,26 @@ footer p {
 .drumkit {
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 
 .key {
     width: 80px;
+    height: 80px;
     text-align: center;
     border-color: black;
     border-style: solid;
     border-width: 1px;
     margin: 5px;
     background-color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
+
+
 
 .key h1 {
     font-weight: bold;
@@ -75,6 +83,30 @@ footer p {
     margin: 2px;
 }
 .key p {
+    font-size: 0.5em;
+    margin: 2px;
+}
+
+
+.pressed {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-color: orange;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    background-color: orange;
+    color: white;
+    box-shadow: 0 0 15px orange;
+}
+
+.pressed h1 {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 2px;
+}
+.pressed p {
     font-size: 0.5em;
     margin: 2px;
 }
